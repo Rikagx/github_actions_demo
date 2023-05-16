@@ -10,11 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
-      - name: update apt-get
-        shell: bash
-        run: |
-          apt-get update
           
       - name: Remove `.Rprofile`
         shell: bash
