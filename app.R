@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+library(rsconnect)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
