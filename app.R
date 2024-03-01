@@ -14,7 +14,7 @@ library(rsconnect)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data updated"),
+    titlePanel("Old Faithful Geyser Data updated for prod"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
